@@ -51,6 +51,7 @@
       </header>
 
       <main class="main-inner">
+        <div class="catalog1">
         <img class="catalog-background" src="#" alt="фон">
         <header class="inner-header">
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
@@ -133,13 +134,14 @@
               </button>
             </fieldset>
 
-              <button class="button" type="submit">Применить</button>
-              <p><button class="button" type="submit">Сбросить</button></p>
+              <button class="button-catalog" type="submit">Применить</button>
+              <p><button class="discard" type="reset">Сбросить</button></p>
           </form>
         </section>
           <form>
+          </div>
             <div class="hotel-block-one">
-              <h3 class="hotels found">Найдено гостиниц: 38</h3>
+              <h3 class="hotels-found">Найдено гостиниц: 38</h3>
             </div>
             <div class="hotel-block-two">
               <label class="visually-hidden" for="sorting">Сортировка</label>
@@ -179,12 +181,12 @@
                 <h4 class="product-hotels-title">Amara Resort & Spa</h4>
               </a>
               <a class="image-product-link" href="#">
-                <img class="product-hotels-image" src="image/hotel-1.jpg" alt="Гостиница">
+                <img class="product-hotels-image" src="image/hotel-1.jpg" width="180" height="120" alt="Гостиница">
               </a>
               <span class="product-hotels-price">Гостиница</span>
               <b class="product-hotels-price">От 4000 ₽</b>
-              <a class="product-hotels-button1" href="#">подробнее</a>
-              <a class="product-hotels-button button" href="#">В избранное</a>
+              <button class="product-hotels-button1" type="button" >Подробнее</button>
+              <button class="chosen-cards" type="button">В избранное</button>
               <span class="rating-hotels">Рейтинг: 8,5</span>
             </li>
 
@@ -193,12 +195,12 @@
                 <h4 class="product-hotels-title">Desert Quail Inn</h4>
               </a>
               <a class="image-product-link" href="#">
-                <img class="product-motel-image" src="image/hotel-2.jpg" alt="Мотель">
+                <img class="product-motel-image" src="image/hotel-2 .jpg" width="180" height="120" alt="Мотель">
               </a>
               <span class="product-hotels-price">Мотель</span>
               <b class="product-hotels-price">От 3000 ₽</b>
-              <a class="product-hotels-button1" href="#">подробнее</a>
-              <a class="product-hotels-button button" href="#">В избранное</a>
+              <button class="product-hotels-button1" type="button">Подробнее</button>
+              <button class="chosen-cards" type="button">В избранное</button>
               <span class="rating-hotels">Рейтинг: 8,9</span>
             </li>
 
@@ -207,12 +209,12 @@
                 <h4 class="product-hotels-title">Villas at Poco Diablo</h4>
               </a>
               <a class="image-product-link" href="#">
-                <img class="product-apartments-image" src="image/hotel-3.jpg" alt="Апартаменты">
+                <img class="product-apartments-image" src="image/hotel-3.jpg" width="180" height="120" alt="Апартаменты">
               </a>
               <span class="product-hotels-price">Апартаменты</span>
               <b class="product-hotels-price">От 2000 ₽</b>
-              <a class="product-hotels-button1" href="#">подробнее</a>
-              <a class="product-hotels-button button1" href="#">В избранном</a>
+              <button class="product-hotels-button1" type="button">Подробнее</button>
+              <button class="chosen-cards-1" type="button">В избранном</button>
               <span class="rating-hotels">Рейтинг: 9,2</span>
             </li>
 
@@ -221,21 +223,21 @@
                 <h4 class="product-hotels-title">GreenTree Inn</h4>
               </a>
               <a class="image-product-link" href="#">
-                <img class="product-hotels-image" src="image/hotel-4.jpg" alt="Гостиница2">
+                <img class="product-hotels-image" src="image/hotel-4.jpg" width="180" height="120" alt="Гостиница2">
               </a>
               <span class="product-hotels-price">Гостиница</span>
               <b class="product-hotels-price">От 3000 ₽</b>
-              <a class="product-hotels-button1" href="#">подробнее</a>
-              <a class="product-hotels-button button" href="#">В избранное</a>
+              <button class="product-hotels-button1" type="button">Подробнее</button>
+              <button class="chosen-cards" type="button">В избранное</button>
               <span class="rating-hotels">Рейтинг: 9,2</span>
             </li>
           </ul>
 
-          <button class="button pagination-show-more" type="button">Загрузить ещё</button>
+          <button class="button-pagination-show-more" type="button">Загрузить ещё</button>
 
           <ul class="pagination">
             <li class="pagination-item">
-              <a class="pagination-link pagination-current">1</a>
+              <a class="pagination-link-pagination-current">1</a>
             </li>
             <li class="pagination-item">
               <a class="pagination-link" href="#">2</a>
@@ -268,7 +270,7 @@
             <p class="newsletter-email">
               <label class="visually-hidden" for="newsletter-email">Email</label>
               <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-              <button class="button newsletter" type="submit">Подписаться</button>
+              <button class="button-newsletter" type="submit">Подписаться</button>
             </p>
           </form>
         </section>

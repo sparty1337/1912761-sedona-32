@@ -23,7 +23,7 @@
         </ul>
 
         <a href="#">
-          <img class="mini-logo" src="#" alt="City of Sedona">
+          <img class="mini-logo" src="image/svg/sedona.svg" width="138" height="70" alt="City of Sedona">
         </a>
 
         <ul class="navigation-list navigation-user">
@@ -69,7 +69,7 @@
           <li class="basic-advantages-item">
             <h3 class="advantages-location">Настоящий городок</h3>
             <p class="advantages-location-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img class="real-town" src="image/real-town.jpg" alt="настоящий городок">
+            <img class="real-town" src="image/real-town.jpg" width="800" height="384" alt="настоящий городок">
             <ul class="advantages-list">
               <li class="advantages-item">
                 <h4 class="advantages">Жильё</h4>
@@ -92,7 +92,7 @@
             </ul>
           </li>
           <li class="basic-advantages-item">
-            <img class="bridge-sedona" src="image/bridge.jpg"  alt="most" >
+            <img class="bridge-sedona" src="image/bridge.jpg" width="800" height="384" alt="most">
             <h3 class="advantages-location">Там есть мост дьявола</h3>
             <p class="advantages-location-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
@@ -111,16 +111,17 @@
         </ol>
       </div>
 
-      <section>
+      <section class="search-section">
+        <div class="search-block-div">
         <h2 class="search-hotel">Заинтересовались?</h2>
         <p class="search-hotel-description">Укажите предполагаемые даты поездки,
           и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
-        <button class="button" type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
-
+        <button class="button" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+        </div>
 
         <form class="Hotel-search-in-Sedona">
-          <h3 class="search-hotel">ПОИСК ГОСТИНИЦЫ В седоне</h3>
+          <h3 class="search-hotel-card">ПОИСК ГОСТИНИЦЫ В седоне</h3>
           <button class="close" type="button"><span class="visually-hidden">закрыть</span></button>
           <ul class="search-menu">
             <li class="search-menu-list">
@@ -140,7 +141,7 @@
               <p>На эти даты есть свободные номера. Пока есть.</p>
             </li>
             <li class="search-menu-list-set">
-              <label class="form-label-set" for="adult">Взрослые:</label>
+              <label class="form-label" for="adult">Взрослые:</label>
               <button class="button-minus" type="button" id="adult-minus"><span class="vissualy-hidden">Уменьшить</span></button>
               <input class="catalog-filter-input" type="number" min="1" max="10" name="adult" value="2" id="adult">
               <button class="button-plus" type="button" id="plus"><span class="vissualy-hidden">Увеличить</span></button>
@@ -152,14 +153,14 @@
               <button class="button-plus" type="button" id="children-plus"><span class="vissualy-hidden">Увеличить</span></button>
             </li>
             <li class="search-menu-list-set">
-              <button class="button" type="button">Начать поиск</button>
+              <button class="button-catalog" type="button">Начать поиск</button>
             </li>
           </ul>
         </form>
       </section>
 
-      <section class="newsletter">
-        <img class="background2" src="image/catalog1.jpg" alt="фон2">
+      <section class="background-2">
+        <img class="image-back" src="#" alt="фон2">
         <h3 class="Subscribe-to-the-newsletter">Подпишитесь на рассылку</h3>
         <p class="newsletter-text">Только полезная информация и никакого спама,
           честное бойскаутское!
@@ -168,7 +169,7 @@
           <p class="newsletter-email">
             <label class="visually-hidden" for="newsletter-email">Email</label>
             <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-            <button class="button newsletter" type="submit">Подписаться</button>
+            <button class="button-newsletter" type="submit">Подписаться</button>
           </p>
         </form>
       </section>
